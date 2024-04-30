@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1024px;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.box{
+    width: 421px;
+    height: 100px;
+    background-color: #4263B5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.smallbox1{
+    height: 200px;
+    width: 200px;
+    background-color: #FFC6C6;
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.smallbox2{
+    height: 200px;
+    width: 200px;
+    background-color: #FFF6C6;
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.smallbox3{
+    height: 200px;
+    width: 200px;
+    background-color: #C7FFC6;
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.smallbox4{
+    height: 200px;
+    width: 200px;
+    background-color: #C6D3FF;
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.bottom{
+    height: 440px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.longbox1{
+    background-color: #FFC6C6;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inbox{
+    background-color: white;
+    border: 1px, black;
+    width: 200px;
+    height: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid black;
+
+}
+
+.longbox2{
+    background-color: #FFF6C6;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.longbox3{
+    background-color:#C7FFC6;
+    flex: 1;
+    flex-direction: column;
+    
+}
+
+.longbox4{
+    background-color: #C6D3FF;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    background-color: black;
+}
+
+.fbox{
+    width: 440px;
+    height: 100px;
+    background-color: #4263B5;
+    margin-left: auto;
+    display: flex;
+}
