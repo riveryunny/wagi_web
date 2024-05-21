@@ -1,0 +1,6 @@
+@keyframes leftmargin {
+    from {margin-left: 0;}
+    to {margin-left: 100px;}
+}
+
+.move {animation: leftmargin 1s linear infinite alternate;}
