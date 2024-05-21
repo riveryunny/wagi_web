@@ -1,0 +1,6 @@
+@keyframes std {
+    from {margin-left: 0;}
+    to {margin-left: 100px;}
+}
+
+.move {animation: std 2s ease-out infinite alternate;}
